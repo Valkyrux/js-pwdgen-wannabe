@@ -23,4 +23,5 @@ const pwdConst = 21;
 let userPwd = userName + userSurname + userFavoriteColor + pwdConst;
 // console.log(userPwd);
 
+// inserisco la password all'interno del tag con l'id selezionato
 document.getElementById("password-container").innerHTML = userPwd;
